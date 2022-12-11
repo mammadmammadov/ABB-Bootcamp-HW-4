@@ -17,6 +17,7 @@ class BFragment : Fragment() {
         binding.toYFromB.setOnClickListener {
             Navigation.findNavController(it).navigate(R.id.FromBToY)
         }
+        val hello = 23
         return binding.root
     }
 

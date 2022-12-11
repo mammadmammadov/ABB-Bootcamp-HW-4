@@ -16,6 +16,7 @@ class AFragment : Fragment() {
         binding = FragmentABinding.inflate(inflater, container, false)
         binding.toB.setOnClickListener {
             Navigation.findNavController(it).navigate(R.id.toBfromA)
+            val t = 10
         }
         return binding.root
     }
